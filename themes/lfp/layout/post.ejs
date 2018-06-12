@@ -1,0 +1,7 @@
+<!-- %- partial('_partial/article', {post: page, index: false}) %> -->
+<% if(page.layout === 'private') { %>
+    <%- partial('_partial/hidden', {post: page, index: false}) %>
+<% } else {%>
+    <%- partial('_partial/article', {post: page, index: false}) %>
+<% }%>
+
