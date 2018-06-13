@@ -1,11 +1,20 @@
 <section class="youyan" id="comments">
-    <script>
-        var loadComment = function(){
-            var d = document, s = d.createElement('script');
-            s.src = 'http://v2.uyan.cc/code/uyan.js?uid=<%= theme.youyan.id%>';
-            (d.head || d.body).appendChild(s);
-        }
-    </script>
+  <div id="lv-container" data-id="city" data-uid="<%= theme.youyan.id%>">
+  <script type="text/javascript">
+ (function(d, s) {
+     var j, e = d.getElementsByTagName(s)[0];
+
+     if (typeof LivereTower === 'function') { return; }
+
+     j = d.createElement(s);
+     j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+     j.async = true;
+
+     e.parentNode.insertBefore(j, e);
+     })(document, 'script');
+  </script>
+  <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+  </div>
     <%- partial('click2show') %>
     <div id="uyan_frame"></div>
 </section>

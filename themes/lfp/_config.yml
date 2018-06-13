@@ -105,7 +105,7 @@ duoshuo:
 
 youyan:
   on: true
-  id: 2129336
+  id: MTAyMC8zNzMxOC8xMzg1Mg==
   # 是否开启友言评论，http://www.uyan.cc/index.php
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
   # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
@@ -120,7 +120,7 @@ youyan:
 background_image: 0
 
 # Base Font Size | 字号调节
-base_font_size: 13  #px, 16 - 24
+base_font_size: 16  #px, 16 - 24
 
 ## General Color Scheme | 主题配色方案
 ## 可用值 Value: yilia
