@@ -167,10 +167,10 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
-search:
-  path: search.json
-  field: post
+#search:
+#  path: search.json
+#  field: post
 sitemap:
   path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
+#baidusitemap:
+#  path: baidusitemap.xml
