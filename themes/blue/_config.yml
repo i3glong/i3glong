@@ -55,7 +55,7 @@ gitment:
   repo: yourrepo
   client_id: yourid
   client_secret: yoursecret
-  lazy: true
+  lazy: false
 
 # >>> Style Customisation 样式自定义 <<<
 
@@ -136,7 +136,7 @@ mathjax: false
 
 # Socail Share | 是否开启分享
 # share: true
-baidushare: true
+baidushare: false
 #showshare: true
 
 # 百度、谷歌站长验证。填写 HTML 标签 content
@@ -145,8 +145,8 @@ baidushare: true
 # baidu_site: #c167b9feb4f0b208b712c79629c188e4
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X, or Baidu Analytics hash key
-google_analytics: xxxxx
-baidu_analytics: xxxxxx
+#google_analytics: xxxxx
+#baidu_analytics: xxxxxx
 
 
 
