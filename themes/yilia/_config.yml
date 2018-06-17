@@ -47,9 +47,9 @@ reward_type: 2
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay:
 # 微信二维码图片地址
-weixin: 
+weixin:
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -84,8 +84,8 @@ duoshuo: false
 wangyiyun: false
 
 #3、畅言
-changyan_appid: false
-changyan_conf: false
+changyan_appid: cytF7fhl4
+changyan_conf: prod_35d78ecdacfd60bcd8187286c49aa4c8
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus: false
