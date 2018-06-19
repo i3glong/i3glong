@@ -69,11 +69,6 @@ theme: blue
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:i3glong/i3glong.github.io.git
+  repository: git@gitee.com:3glong/3glong.git
   branch: master
 
-backup:
-    type: git
-    message: update source
-    repository:
-       github: git@github.com:i3glong/hexo-backup.git,master
